@@ -12,11 +12,23 @@ public class Alien {
 		public void setName(String name) {
 			this.name = name;
 		}
-		public int getPoints() {
-			return points;
+		public int getId() {
+			return id;
 		}
-		public void setPoints(int points) {
-			this.points = points;
+		@Override
+		public String toString() {
+			return "Alien [name=" + name + ", id=" + id + "]";
 		}
-		private int points;
+		public void setId(int id) {
+			this.id = id;
+		}
+		private int id;
+		
+		
+		Alien()
+		{
+			id=0;
+			name="not found";
+		}
+		
 }

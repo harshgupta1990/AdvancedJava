@@ -1,7 +1,9 @@
 package com.telusko.demorest;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+
 
 public class AlienRepository {
 	
@@ -26,9 +28,11 @@ public class AlienRepository {
 		a3.setName("Abhinav");
 		a3.setId(27);
 		
-		la.add(a1);
-		la.add(a2);
-		la.add(a3);
+		la=Arrays.asList(a1,a2,a3);
+		
+//		la.add(a1);
+//		la.add(a2);
+//		la.add(a3);
 	}
 	
 	

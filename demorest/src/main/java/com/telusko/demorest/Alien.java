@@ -1,8 +1,13 @@
 package com.telusko.demorest;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import javax.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement
+@XmlRootElement                              
+
+
 public class Alien {
 
 		private String name;
@@ -30,5 +35,8 @@ public class Alien {
 			id=0;
 			name="not found";
 		}
+		
+		
+		List<Alien> la;
 		
 }

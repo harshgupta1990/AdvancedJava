@@ -8,7 +8,7 @@ public class SpringbootrestApplication {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Hello");
+		System.out.println("Hello"); 
 		SpringApplication.run(SpringbootrestApplication.class, args);
 	}
 

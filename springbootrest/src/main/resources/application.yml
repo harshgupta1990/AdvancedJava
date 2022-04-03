@@ -1,0 +1,10 @@
+server:
+    port: 8081
+    
+spring:  datasource:    url: jdbc:postgresql://localhost:5432/restdb
+    username: postgres
+    driver-class-name: org.postgresql.Driver
+    spring.datasource: postgres
+    password: postgres    
+
+

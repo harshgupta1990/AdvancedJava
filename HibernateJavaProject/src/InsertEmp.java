@@ -8,7 +8,9 @@ public class InsertEmp {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		 
+		
+		System.out.println("Hibernate");
+		
 		Configuration cfg=new Configuration();
 		cfg.configure("Hibernate.cfg.xml");
 		
@@ -29,4 +31,5 @@ public class InsertEmp {
 		s.close();
 	}
 
+	
 }

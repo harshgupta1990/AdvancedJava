@@ -4,5 +4,9 @@
     <p><a href="webapi/myresource">Jersey resource</a>
     <p>Visit <a href="http://jersey.java.net">Project Jersey website</a>
     for more information on Jersey!
+    
+    <p><a href="http://localhost:8081/demorest/webapi/aliens/getAliens">Get Aliens</a>
+    
+    
 </body>
 </html>
